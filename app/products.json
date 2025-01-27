@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Black modern chair",
+      "price": 1000,
+      "img": "../media/1.png",
+      "description": "Black modern chair whit no handles"
+    },
+    {
+      "id": 2,
+      "name": "Wooden chair",
+      "price": 900,
+      "img": "../media/2.png",
+      "description": "Brown wooden bar chair"
+    },
+    {
+      "id": 3,
+      "name": "Gray modern chair",
+      "price": 1300,
+      "img": "../media/3.png",
+      "description": "Gray modern chair with three legs"
+    },
+    {
+      "id": 4,
+      "name": "Gray modern bar chair",
+      "price": 1000,
+      "img": "../media/4.png",
+      "description": "Gray modern bar chair with long legs"
+    },
+    {
+      "id": 5,
+      "name": "Black modern chair",
+      "price": 1400,
+      "img": "../media/5.png",
+      "description": "Black modern bar chair with handles"
+    },
+    {
+      "id": 6,
+      "name": "Red modern bar chair",
+      "price": 1000,
+      "img": "../media/6.png",
+      "description": "Red modern bar chair with no handles"
+    },
+    {
+      "id": 7,
+      "name": "Gray modern chair",
+      "price": 1200,
+      "img": "../media/7.png",
+      "description": "Gray modern chair with two legs"
+    },
+    {
+      "id": 8,
+      "name": "White modern chair",
+      "price": 1600,
+      "img": "../media/8.png",
+      "description": "White modern bar chair with no handles"
+    }
+]
+}
+

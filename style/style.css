@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", serif;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  font-size: 1.7rem;
+}
+
+.content h1{
+  font-size: 3rem;
+}
+
+.content h3{
+  font-size: 1.5rem;
+  opacity: .8;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard{
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: radial-gradient(at 50% 0%, transparent 1%, #5D86F7 70%, #ffffff 80%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+.btns{
+  width: 100%;
+}
+
+.signinBtn{
+  background-color: #3861d1;
+  color: #fff;
+  border: none;
+  border-radius: .3rem;
+  padding: .5rem 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.signinBtn:hover, .loginBtn:hover{
+  background-color: #5D86F7;
+}
+
+.signupBtn, .forgotBtn{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.signupBtn:hover, .forgotBtn:hover{
+  color: #3861d1;
+}
+
+.form{
+  width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: .7rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  margin-left: .3rem;
+  outline: none;
+}
+
+.toggle-password {
+  cursor: pointer;
+  position: relative;
+  left: -30px; /* Adjust based on your layout */
+  font-size: 18px;
+  color: #555;
+}
+
+.toggle-password:hover {
+  color: #000;
+}
+
+
+.disable{
+  display: none;
+}
+
+.loginBtn{
+  background-color: #3861d1;
+  color: #fff;
+  border: none;
+  border-radius: .3rem;
+  padding: .5rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.register, .forgot{
+  width: 100%;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group{
+  width: 100%;
+  margin: auto;
+}
+
+.reBtn, .forBtn{
+  display: block;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.cart{
+  position: relative;
+}
+
+.cart {
+  position: relative;
+}
+
+#cart-count {
+  color: #fff;
+  padding: .1rem .4rem;
+  margin-left: -.2rem;
+  background-color: #eb3232;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.cart-item-details h4{
+  font-size: 2rem;
+}
+
+.cart-item-details p{
+  font-size: 1.3rem;
+}
+
+hr{
+  color: #080808;
+  width: 100%;
+}
+
+#total-price{
+  font-size: 2.5rem;
+}
+
+.logout{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding: .90rem;
+}
+footer p {
+  color: gray;
+}

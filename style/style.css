@@ -97,6 +97,12 @@ input[type="email"]{
   color: #000;
 }
 
+.error{
+  color: red;
+  width: 100%;
+  text-align: center;
+  white-space: pre-line;
+}
 
 .disable{
   display: none;

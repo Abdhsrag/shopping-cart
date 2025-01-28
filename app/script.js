@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const errorElement = document.getElementById(elementId);
       if (errorElement) {
         errorElement.textContent = message;
-        errorElement.style.display = "block";
       }
     } else {
       alert(message);
@@ -119,7 +118,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!isValidPassword(password)) {
         displayError(
-          "Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.",
+          `Password must meet the following requirements: 
+          - At least 8 characters long 
+          - Contain at least one uppercase letter 
+          - Contain at least one lowercase letter 
+          - Contain at least one number 
+          - Contain at least one special character`,
           "passwordError"
         );
         return;
@@ -176,7 +180,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!isValidPassword(password)) {
       displayError(
-        "Invalid password format. Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character."
+        `Password must meet the following requirements:
+        - At least 8 characters long
+        - Contain at least one uppercase letter
+        - Contain at least one lowercase letter
+        - Contain at least one number
+        - Contain at least one special character`,
+        "passwordError"
       );
       return;
     }
@@ -229,9 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       if (!isValidPassword(newPassword)) {
-        displayError(
-          "Invalid password format. Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character."
-        );
+        alert('cannot use this password');
         return;
       }
 

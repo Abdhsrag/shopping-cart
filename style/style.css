@@ -181,8 +181,10 @@ hr{
 
 
 footer{
-  display: flex;
-  justify-content: center;
+  display: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
   padding: .90rem;
 }
 footer p {

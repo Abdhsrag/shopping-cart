@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const signupBtn = document.querySelector(".signupBtn");
   const form = document.querySelector(".form");
   const register = document.querySelector(".register");
-  const registerBtn = document.querySelector(".reBtn");
   const forgotBtn = document.querySelector(".forgotBtn");
   const forgot = document.querySelector(".forgot");
   const loginBtn = document.querySelector(".loginBtn");
@@ -64,7 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
   signinBtn.addEventListener("click", function (event) {
     event.preventDefault();
     form.classList.remove("disable");
-    signupBtn.classList.add("disable");
     signinBtn.classList.add("disable");
   });
 
@@ -74,13 +72,14 @@ document.addEventListener("DOMContentLoaded", () => {
     signinBtn.classList.add("disable");
     signupBtn.classList.add("disable");
     register.classList.remove("disable");
+    form.classList.add("disable");
+    forgot.classList.add("disable");
   });
 
   // Handle Forgot Password Button Click
   forgotBtn.addEventListener("click", function (event) {
     event.preventDefault();
     signinBtn.classList.add("disable");
-    signupBtn.classList.add("disable");
     form.classList.add("disable");
     forgot.classList.remove("disable");
   });
